@@ -8,9 +8,7 @@ export default function App() {
     <div className="App">
       <Message counter={count} />
       <br />
-      <button onClick={
-        () => setCount(count + 1)
-      }>
+      <button onClick={() => setCount(count + 1)}>
         Update Counter
       </button>
     </div>
